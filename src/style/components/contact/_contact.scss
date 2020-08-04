@@ -35,6 +35,22 @@
   font-size: 12px !important;
 }
 
+.contact__button {
+  display: flex;
+  float: right;
+  font-size: 10px;
+}
+
+.contact__button span {
+  padding: 2px 8px;
+  background-color: lightblue;
+  margin-right: 5px;
+  border-radius: 10px;
+  font-size: 8px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
 .contact__left {
   display: flex;
   flex-direction: column;
@@ -44,13 +60,4 @@
   width: 80px;
   height: 80px;
   object-fit: contain;
-}
-
-.contact__left span {
-  text-transform: uppercase;
-  font-size: 8px;
-  color: #333;
-  text-align: center;
-  margin-top: 5px;
-  letter-spacing: 2px;
 }

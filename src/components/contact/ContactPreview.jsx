@@ -13,7 +13,10 @@ const ContactPreview = ({ contact }) => {
           src={contact.gender === 'male' ? maleAvatar : femaleAvatar}
           alt='avatar'
         />
-        <span>{contact.gender}</span>
+        <div className='contact__button'>
+          <span>Delete</span>
+          <span>Edit</span>
+        </div>
       </div>
       <div className='contact__right'>
         <h2>{contact.name}</h2>
