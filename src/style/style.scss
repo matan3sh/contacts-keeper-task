@@ -1,0 +1,24 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/mixins';
+@import 'setup/functions';
+@import 'setup/typography';
+
+// Basics
+@import 'basic/base';
+@import 'basic/button';
+@import 'basic/input';
+@import 'basic/form';
+@import 'basic/layout';
+@import 'basic/text';
+
+// Components
+@import 'components/pages/home';
+@import 'components/layout/navbar';
+@import 'components/layout/sidenav';
+@import 'components/contact/contact';
+@import 'components/contact/contacts';
+@import 'components/contact/contactsearch';
+
+// Modal
+@import 'components/modal/aboutmodal';

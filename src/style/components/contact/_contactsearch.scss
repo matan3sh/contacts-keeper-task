@@ -1,0 +1,19 @@
+.search {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+.search input {
+  flex: 1;
+}
+
+.search span {
+  position: relative;
+  top: 17px;
+  right: 30px;
+}
